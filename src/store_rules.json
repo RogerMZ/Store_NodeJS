@@ -1,0 +1,35 @@
+{
+  "prods": [
+    {
+      "Code": "VOUCHER",
+      "Name": "Peppa pig voucher",
+      "Price": 5
+    },
+    {
+      "Code": "TSHIRT",
+      "Name": "Avengers end game t-shirt",
+      "Price": 20
+    },
+    {
+      "Code": "MUG",
+      "Name": "Salad mug",
+      "Price": 7.5
+    }
+  ],
+  "proms": [
+    {
+      "Code": "VOUCHER",
+      "type": "2x1",
+      "op": ">2",
+      "value": 2,
+      "effect": 2
+    },
+    {
+      "Code": "TSHIRT",
+      "type": "discount",
+      "op": ">2",
+      "value": 3,
+      "effect": 19
+    }
+  ]
+}
